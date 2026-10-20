@@ -1,13 +1,23 @@
 # Donkey Kong Country 3: Dixie Kong's Double Trouble! on Xbox — the UWP port
 
 How to take the [DKC3Recomp](https://github.com/elliotttate/DKC3Recomp) static recompilation of *Donkey Kong Country 3: Dixie Kong's Double Trouble!* (Super Nintendo,
-1996) and run it **on an Xbox Series in Developer Mode**, as a UWP package you build and sign
+1996) and run it **on an Xbox Series X in Developer Mode**, as a UWP package you build and sign
 yourself.
 
 *(Español: [README.es.md](README.es.md))*
 
 It is not a theory: the game boots, plays with a controller at **59.9 frames per second**, with
 sound and in 16:9, and the package that runs on two consoles was built with exactly this recipe.
+
+## Which console this was tested on
+
+**An Xbox Series X**, in Developer Mode. Both of the consoles this was built and tested on are Series X,
+so that is the only hardware anything claimed here covers.
+
+**A Series S has never been tried — not once.** It is a different machine: less memory available to a
+game and a weaker GPU. This may work on one, it may run slower, or it may not start at all; nothing here
+has been measured on it. If you run it on a Series S, what you get is not what this README reports, and
+none of the numbers here are a promise about that console.
 
 ## What this repository is
 
