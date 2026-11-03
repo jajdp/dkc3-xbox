@@ -70,7 +70,7 @@ Not by reading it: by rebuilding it. On 2026-10-14, from this repository's own `
 | Does it build? | **3,978 objects, 0 errors**, linking `DKC3Recomp.exe` (9,561,088 bytes) |
 | Package and signature | `makepri` → `makeappx` → `signtool`, a signed `.msix` of 9,385,255 bytes |
 | Against the `.msix` that runs on the consoles (0.0.4.0) | 10,752 bytes more, 7,168 of them in `.text`: the host has moved on since that package was built |
-| Determinism of the toolchain | Measured once for this family rather than three times: the same tree compiled from two different paths gives **93 of 93 objects with an identical `.text`** (see the `supermetroid-recomp-xbox` repository, same engine, same compiler, same flags) |
+| Determinism of the toolchain | Measured once for this family rather than three times: the same tree compiled from two different paths gives **93 of 93 objects with an identical `.text`** (measured once on another game of this same family: same engine, same compiler, same flags) |
 
 ## A note on language
 

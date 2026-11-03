@@ -115,7 +115,7 @@ repositorio, contra una copia con la recompilación ya generada:
 | ¿Compila? | **3,978 objetos, 0 errores**, y enlaza `DKC3Recomp.exe` (9,561,088 bytes) |
 | Paquete y firma | `makepri` → `makeappx` → `signtool`, un `.msix` firmado de 9,385,255 bytes |
 | Contra el `.msix` que corre en las consolas (0.0.4.0) | 10 752 bytes mas, 7 168 de ellos en `.text`: el host ha avanzado desde que se armo ese paquete |
-| Determinismo de la cadena de compilación | Medido una vez para esta familia en vez de tres: el mismo árbol compilado desde dos rutas distintas da **93 de 93 objetos con `.text` idéntico** (ver el repositorio `supermetroid-recomp-xbox`, mismo motor, mismo compilador, mismas opciones) |
+| Determinismo de la cadena de compilación | Medido una vez para esta familia en vez de tres: el mismo árbol compilado desde dos rutas distintas da **93 de 93 objetos con `.text` idéntico** (medido una vez en otro juego de esta misma familia: mismo motor, mismo compilador, mismas opciones) |
 
 ## Créditos y licencia
 

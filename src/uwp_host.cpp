@@ -295,10 +295,9 @@ struct App : winrt::implements<App, wac::IFrameworkViewSource, wac::IFrameworkVi
   // `RtlLoadSnapshot`, el mismo formato de los estados guardados—, así que basta
   // con escribir uno y volver a cargarlo al relanzar.
   //
-  // **Cuándo escribirlo: cada 10 segundos, no en el aviso de suspensión.** Medido
-  // en Street Fighter EX2 Plus (2026-10-06), cuando ese aviso llega puede que no
-  // se emule ni un cuadro más, y el estado solo es coherente en un borde de
-  // cuadro. Se guarda también al suspender, por si llega a tiempo, pero sin
+  // **Cuándo escribirlo: cada 10 segundos, no en el aviso de suspensión.** Cuando
+  // ese aviso llega puede que no se emule ni un cuadro más, y el estado solo es
+  // coherente en un borde de cuadro. Se guarda también al suspender, por si llega a tiempo, pero sin
   // depender de ello.
   //
   // **Salvaguarda:** el archivo se aparta antes de cargarlo y se borra después.
@@ -321,9 +320,9 @@ struct App : winrt::implements<App, wac::IFrameworkViewSource, wac::IFrameworkVi
   }
 
   // Estado de otra version: un estado guardado por OTRO binario no se puede restaurar — la
-  // memoria emulada queda inconsistente y el juego sale con los gráficos rotos (le pasó al
-  // usuario en Super Mario World el 2026-10-06). La marca es la RUTA del ejecutable, que en
-  // UWP lleva dentro la versión del paquete, así que cambia en cada instalación.
+  // memoria emulada queda inconsistente y el juego sale con los gráficos rotos. La marca es
+  // la RUTA del ejecutable, que en UWP lleva dentro la versión del paquete, así que cambia en
+  // cada instalación.
   // No vale la fecha de compilación: solo cambia si se recompila ESE archivo.
   bool EstadoEsDeOtraVersion() {
     char propio[512] = { 0 };
