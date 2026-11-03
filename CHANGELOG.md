@@ -7,18 +7,9 @@ whatever you pass to `package_uwp.py --version`.
 
 ## 1.0.3 — 2026-11-03
 
-### Changed
-
-- **This repository no longer explains itself by pointing at other repositories of this
-  catalogue.** Comments and documentation introduced a decision, a trap or a default as "the same
-  as in such-and-such other port of ours" — which asked anyone who came here for this game to go
-  and read about a different one first. Each of those comparisons carried a fact that reads better
-  stated outright, so that is what is written now.
-
-  What is still cited is everything that is **not** ours: the upstream project, the third-party
-  forks the recipe is built on, and the files taken from them under their own license.
-
-## 1.0.2 — 2026-11-03
+**1.0.2 and 1.0.3 are the same change.** The publishing pass ran twice over this repository by a
+slip of its own, and 1.0.2 was tagged first. Neither tag is withdrawn — a published link should
+keep working — so this entry covers both.
 
 ### Changed
 
