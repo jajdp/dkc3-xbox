@@ -119,6 +119,17 @@ repositorio, contra una copia con la recompilación ya generada:
 
 ## Créditos y licencia
 
+**Casi nada de lo que hace que esto funcione es nuestro.** Este repositorio es una receta que une el trabajo de otros; sin cualquiera de estas piezas no habría port.
+
+| Qué hace | Quién lo hizo | Licencia |
+|---|---|---|
+| **[DKC3Recomp](https://github.com/elliotttate/DKC3Recomp)** — recompila *Donkey Kong Country 3* | **elliotttate** | MIT |
+| **[snesrecomp](https://github.com/mstan/snesrecomp)** — el ecosistema de recompilación estática de SNES | **RetroPortingToolKit** (formerly mstan) | PolyForm Noncommercial 1.0.0 |
+| **[SDL](https://github.com/libsdl-org/SDL)** — ventana, mando y audio | **Sam Lantinga** and the SDL contributors | zlib |
+
+**La receta de empaquetado, las herramientas y esta documentación** son de **Recompilaciones**.
+
+
 Port y herramientas de **Recompilaciones**. Publicado bajo la
 [PolyForm Noncommercial License 1.0.0](LICENSE): el proyecto del juego es MIT, pero este port se
 construye sobre el motor **snesrecomp**, que es PolyForm Noncommercial, y el parche de `patches/`
